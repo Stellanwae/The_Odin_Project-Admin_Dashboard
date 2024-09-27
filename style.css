@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    background-color: #39ff;
+    color: white;
+    padding: 7px 15px;
+    width: 70px;
+}
+
+
+.container {
+    display: flex;  
+    width: 100%;  
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    background-color: #39ff;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    gap: 35px;
+    
+}
+
+.dashboard > .dashboard-icon > img {
+    width: 35px;
+    height: 35px;
+}
+
+.dashboard-icon,
+.main-menu div,
+.control-panel div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.dashboard div img {
+    width: 20px;
+    height: 20px;
+}
+
+.main-page {
+    flex-basis: 85%;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.nav-main-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 6px 0px 6px darkgray;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.top-nav div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.top-nav div input {
+    border-radius: 30px;
+    border: none;
+    background-color: lightgrey;
+    line-height: 23px;
+    width: 650px;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.bottom-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-nav > div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-content {
+    display: flex;
+    padding: 30px 10px;
+}
+
+.card {
+    border-left: 4px solid orange;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 20px 15px;
+    box-shadow: 6px 0px 6px darkgray;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.your-projects {
+    flex-basis: 75%;
+}
+
+.announcements {
+    flex-basis: 25%;
+}
+
+.announcements-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 6px 0px 6px darkgray;
+}
+
+.announcements-card p {
+    font-size: 8px;  
+}
+
+.announcements-card hr {
+    margin: 20px 0;
+}
+
+.card-share {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns:  repeat(2, 1fr);
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.trending {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 6px 0px 6px darkgray;
+    gap: 30px;
+}
+
+.trending > div {
+    display: flex;
+    gap: 15px;
+}
+
+.trending img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.trending-profiles {
+    margin-top: 25px;
+}
+
+.trending-profiles  .trending  div  div  p{
+    font-size: 10px;
+}
